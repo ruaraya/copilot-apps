@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.API_URL + '/prompts'
+const API_URL = process.env.REACT_APP_API_URL + '/prompts'
 
 const getPrompts = async (token, q = '') => {
   const res = await axios.get(API_URL, {
