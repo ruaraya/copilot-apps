@@ -8,6 +8,17 @@
           "port": 9229, // Default Node.js debugger port
           "restart": true, // Essential for Nodemon to reattach on restarts
           "protocol": "inspector"
+        },
+        {
+          "type": "node",
+          "request": "launch",
+          "name": "Launch Jest Tests",
+          "program": "${workspaceFolder}/prompt-app/backend/node_modules/.bin/jest",
+          "args": [
+            "--runInBand"
+          ],
+          "console": "integratedTerminal",
+          "internalConsoleOptions": "neverOpen"
         }
       ]
     }
