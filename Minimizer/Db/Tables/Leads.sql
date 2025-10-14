@@ -1,0 +1,7 @@
+CREATE TABLE Leads (
+    id BINARY(16) PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100),
+    status VARCHAR(20),
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
