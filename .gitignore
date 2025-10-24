@@ -1,0 +1,41 @@
+# Visual Studio and .NET specific files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.pdb
+*.csi
+*.cache
+*.log
+*.bak
+*.scc
+*.vssscc
+*.buildscc
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Resharper/Rider files
+.idea/
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+
+# NCrunch
+*.ncrunch*
+
+# StyleCop
+StyleCop.Cache
+
+# Test results
+TestResults/
+
+# User-specific files
+Thumbs.db
+Desktop.ini
+
+# Project-specific files, if any
+# MyProjectSpecificFolder/
