@@ -49,6 +49,7 @@ namespace Minimizer.Data.DbContexts
                     v => v.ToByteArray(),
                     v => new Guid(v)
                 );
+
         }
     }
 }
