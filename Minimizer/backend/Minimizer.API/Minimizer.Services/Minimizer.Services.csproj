@@ -9,12 +9,13 @@
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="MediatR" Version="13.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Minimizer.Common\Minimizer.Common.csproj" />
-    <ProjectReference Include="..\Minizer.Data\Minimizer.Data.csproj" />
+    <ProjectReference Include="..\Minimizer.Data\Minimizer.Data.csproj" />
+    <ProjectReference Include="..\Minimizer.Data\Minimizer.Data.csproj" />
   </ItemGroup>
 
 </Project>
